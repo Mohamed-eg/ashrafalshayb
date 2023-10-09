@@ -1245,6 +1245,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
+
+@media (min-width: 300px) {
+
+  /**
+   * client
+   */
+
+  .clients-item { min-width: calc(25% - 8px); }
+
+
+
+  /**
+   * #PORTFOLIO, BLOG 
+   */
+
+  .project-img,
+  .blog-banner-box { height: auto; }
+
+}
+
+
+
+
+
+
+
 /**
  * responsive larger than 450px screen
  */
@@ -1255,7 +1281,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  .clients-item { min-width: calc(33.33% - 50px); }
 
 
 
@@ -1496,7 +1522,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
+  .clients-item { min-width: calc(25% - 35px); }
 
 
 
