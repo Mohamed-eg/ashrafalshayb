@@ -5,14 +5,14 @@
 ![GitHub forks](https://img.shields.io/github/forks/mohamed-eg/ashrafalshayb?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/mohamed?style=social)](https://twitter.com/intent/follow?screen_name=Mohamed64998935)
 
+## Demo
+
+![ Desktop Demo](./website-demo-image/desktop1.png "Desktop Demo")
+![ Desktop2 Demo](./website-demo-image/desktop2.png "Mobile Demo")
+
 ## live Demo
 
 <a>https://mohamed-eg.github.io/ashrafalshayb/</a>
-
-## Demo
-
-![ Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![ Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
 ## Contact
 
