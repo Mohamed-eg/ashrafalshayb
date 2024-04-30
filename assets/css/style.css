@@ -1987,9 +1987,9 @@ textarea.form-input::-webkit-resizer {
     margin: auto;
   }
 
-  #Petroleum_content {
+  /* #Petroleum_content {
     display: none;
-  }
+  } */
 
   .PE_T_img {
     width: 100px !important;
