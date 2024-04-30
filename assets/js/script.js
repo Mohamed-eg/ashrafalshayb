@@ -1,6 +1,30 @@
 'use strict';
 
+//page toggle
 
+// const SEjop= document.querySelector("#SE-jop")
+// const PEjop= document.querySelector("#PE-jop")
+const softWare_content= document.querySelector("#softWare_content")
+const Petroleum_content= document.querySelector("#Petroleum_content")
+
+const SEdisplay= function () {
+    Petroleum_content.style.display="none"
+    softWare_content.style.display="block"
+    document.querySelector(".myIMG").setAttribute("src","./assets/images/my-avatar.png")
+};
+const PEdisplay= function () {
+    Petroleum_content.style.display="block"
+    softWare_content.style.display="none"
+    document.querySelector(".myIMG").setAttribute("src","./assets/images/PE_img/my-avatar.jpeg")
+}
+const taggelcontent = (select)=>{
+  console.log(select.options[select.selectedIndex].value)
+  if(select.options[select.selectedIndex].value==="SE"){
+    SEdisplay()
+  }else if(select.options[select.selectedIndex].value==="PE"){
+    PEdisplay()
+  }
+}
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
