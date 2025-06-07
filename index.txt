@@ -51,7 +51,7 @@ High-quality development of sites at the professional level.
 
 alt = mobile app icon
 Mobile apps
-Professional development of applications for iOS and Android.
+Professional development of Full-stack for iOS and Android.
 
 alt = camera icon
 Photography
@@ -138,13 +138,13 @@ Portfolio
 
 All
 Web design
-Applications
+Full-stack
 Web development
 
 Select category
 All
 Web design
-Applications
+Full-stack
 Web development
 
 alt = finance
@@ -161,7 +161,7 @@ Web design
 
 alt = brawlhalla
 Brawlhalla
-Applications
+Full-stack
 
 alt = dsm.
 DSM.
@@ -177,7 +177,7 @@ Web development
 
 alt = task manager
 Task Manager
-Applications
+Full-stack
 
 alt = arrival
 Arrival

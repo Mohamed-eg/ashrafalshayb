@@ -82,7 +82,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
@@ -95,6 +95,7 @@ for (let i = 0; i < selectItems.length; i++) {
     selectValue.innerText = this.innerText;
     elementToggleFunc(select);
     filterFunc(selectedValue);
+    // console.log(selectedValue);
 
   });
 }
@@ -108,10 +109,12 @@ const filterFunc = function (selectedValue) {
 
     if (selectedValue === "all") {
       filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
+    } else if (selectedValue === filterItems[i].dataset.category.toLowerCase()) {
+      // console.log(filterItems[i].dataset.category);
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
+      // console.log(filterItems[i].dataset.category);S
     }
 
   }
@@ -122,13 +125,13 @@ const filterFunc = function (selectedValue) {
 let lastClickedBtn = filterBtn[0];
 
 for (let i = 0; i < filterBtn.length; i++) {
-
+// console.log(filterBtn)
   filterBtn[i].addEventListener("click", function () {
 
     let selectedValue = this.innerText.toLowerCase();
     selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
-
+    console.log(selectedValue);
     lastClickedBtn.classList.remove("active");
     this.classList.add("active");
     lastClickedBtn = this;
