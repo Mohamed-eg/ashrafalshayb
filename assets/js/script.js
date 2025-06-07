@@ -128,8 +128,8 @@ for (let i = 0; i < filterBtn.length; i++) {
 // console.log(filterBtn)
   filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    let selectedValue = this?.innerText.toLowerCase();
+    selectValue.innerText = this?.innerText;
     filterFunc(selectedValue);
     console.log(selectedValue);
     lastClickedBtn.classList.remove("active");
