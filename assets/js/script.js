@@ -184,3 +184,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+  const selectElement = document.querySelector(".title");
+  taggelcontent(selectElement);
+});
